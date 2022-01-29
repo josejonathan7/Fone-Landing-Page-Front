@@ -1,0 +1,42 @@
+
+.container {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.imageContainer {
+
+	img {
+		width: 55%;
+	}
+}
+
+.buttonContainer {
+	width: 25%;
+	display: flex;
+	justify-content: space-between;
+
+	button {
+		background-color: transparent;
+		border: none;
+		font-size: 20px;
+
+		&:hover {
+			text-decoration: underline;
+			text-decoration-color: #CA3B3A;
+			text-decoration-thickness: 2px;
+
+		}
+	}
+
+}
+
+
+.iconsContainer {
+	width: 10%;
+	display: flex;
+	justify-content: space-between;
+}

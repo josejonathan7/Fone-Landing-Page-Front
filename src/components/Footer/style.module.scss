@@ -2,7 +2,7 @@
 	width: 90%;
 	display: flex;
 	flex-direction: row;
-	background-color: #F0E68C;
+	background-color: #f0e68c65;
 	justify-content: space-evenly;
 	position: absolute;
 	bottom: 0px;
@@ -14,4 +14,9 @@
 	flex-direction: row;
 	align-items: center;
 	gap: 25px;
+
+	p {
+		color: #000;
+		filter: brightness(0.1);
+	}
 }

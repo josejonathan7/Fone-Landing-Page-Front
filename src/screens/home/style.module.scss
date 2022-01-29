@@ -29,4 +29,29 @@
 	}
 }
 
+.borderLeftContainer {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	flex-direction: column;
+	width: 2%;
 
+	span {
+		background-color: #DCDCDC;
+		width: 1px;
+		height: 1px;
+		border-radius: 100%;
+		border: 7px solid #DCDCDC;
+	}
+
+	span:first-child, span:last-child {
+		height: 100px;
+		border-radius: 10%;
+		border: 2px solid #DCDCDC;
+	}
+
+	span:nth-child(2) {
+		border-color: #DC143C;
+		background-color: #DC143C;
+	}
+}

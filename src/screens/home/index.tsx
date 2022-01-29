@@ -11,6 +11,15 @@ export default function Home () {
 			<Menu />
 
 			<main className={style.mainContainer}>
+				<div className={style.borderLeftContainer}>
+
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+
+				</div>
 
 				<div className={style.imageContainer}>
 					<img src={Fone}  />

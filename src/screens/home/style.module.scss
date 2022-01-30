@@ -14,7 +14,7 @@
 	width: 90%;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 50px;
+	padding-top: 3.125rem;
 }
 
 .imageContainer {
@@ -32,22 +32,22 @@
 .borderLeftContainer {
 	display: flex;
 	align-items: center;
-	gap: 50px;
+	gap: 3.125rem;
 	flex-direction: column;
 	width: 2%;
 
 	span {
 		background-color: #DCDCDC;
-		width: 1px;
-		height: 1px;
+		width: 0.0625rem;
+		height: 0.0625rem;
 		border-radius: 100%;
-		border: 7px solid #DCDCDC;
+		border: 0.4375rem solid #DCDCDC;
 	}
 
 	span:first-child, span:last-child {
-		height: 100px;
+		height: 6.25rem;
 		border-radius: 10%;
-		border: 2px solid #DCDCDC;
+		border: 0.125rem solid #DCDCDC;
 	}
 
 	span:nth-child(2) {
